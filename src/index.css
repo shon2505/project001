@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+	height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.App-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+	background-color: #222;
+	color: #fff;
+}
+
+.App-tv-logo {
+	height: 45px;
+}
+
+.App-react-logo {
+	display: block;
+	height: 62px;
+}
+
+.App-title {
+	display: block;
+	font-size: 1.5em;
+}
+
+
+.TVChartContainer {
+	height: calc(100vh - 80px);
+}
+
